@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "One-page portfolio for Radikal Lukafiardi: selected personal projects and experience, in plain HTML and CSS (no build step). Deploys as a GitHub Pages user site at https://rlukafiardi.github.io (repo `rlukafiardi/rlukafiardi.github.io`, must be public).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlukafiardi/rlukafiardi.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rlukafiardi/rlukafiardi.github.io/issues"
+  },
+  "homepage": "https://github.com/rlukafiardi/rlukafiardi.github.io#readme",
+  "devDependencies": {
+    "puppeteer-core": "25.16.0"
+  }
+}
