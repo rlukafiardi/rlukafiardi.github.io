@@ -16,6 +16,7 @@ A one-page portfolio on rlukafiardi.github.io: CV experience as a timeline first
 - Contact line says "data scientist roles" (owner wording).
 
 ## Status
+- Tooling (2026-11-14): pre-commit via `.githooks/` (after a fresh clone: `git config core.hooksPath .githooks`): gitleaks, large-file and merge-conflict checks; Dependabot monthly (npm, pre-commit). No GitHub Actions CI while the account has a billing lock.
 - Live 2026-11-09 at https://rlukafiardi.github.io (public repo `rlukafiardi/rlukafiardi.github.io`, Pages from `main`). Order: experience, projects, skills, contact.
 - `node tests/e2e.mjs [url]` (puppeteer-core, desktop + phone): section order, images, no failed requests, no horizontal scroll, nav jump, no phone number. Passes on the live URL.
 - Light mode checked by the owner (works). No custom domain (not wanted).
